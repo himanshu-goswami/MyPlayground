@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.ucsdextension.myplayground.MainActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:text="Welcome to my App"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Assignment 3"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click the button if you like my application"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="93dp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="129dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="198dp" />
+
+        <TextClock
+            android:id="@+id/textClock2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="inherit"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="281dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Chronometer
+            android:id="@+id/chronometer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="349dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/buttonUCSD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UCSD extension"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="-190dp" />
+
+        <Button
+            android:id="@+id/buttonCNN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CNN" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/tiger" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
